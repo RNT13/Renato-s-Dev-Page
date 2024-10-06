@@ -27,13 +27,17 @@ li {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
     @media @breakpointMobal {
         max-width: 70%;
+
+        .profile-avatar {
+            max-width: 50%;
+        }
     }
     
     @media @breakpointTablet {
@@ -48,7 +52,7 @@ header {
         display: block;
         margin: 0 auto 24px;
         border-radius: 50%;
-        max-width: 200px;
+        max-width: 18%;
     }
 }
 
@@ -89,14 +93,14 @@ header {
 }
 
 .projects-list {
-    margin-top: 32px;
+    margin-top: 25px;
     &-item {
         a {
             text-decoration: none;
             background-color: #colors[buittonColor];
             display: block;
             padding: 16px 20px;
-            margin-bottom: 16px;
+            margin-bottom: 15px;
             text-align: center;
             color: #colors[textColor];
             font-weight: bold;
