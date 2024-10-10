@@ -41,7 +41,7 @@ header {
 }
 header .profile-avatar {
   display: block;
-  margin: 0 auto 24px;
+  margin: 5% auto 2%;
   border-radius: 50%;
   max-width: 18%;
 }
