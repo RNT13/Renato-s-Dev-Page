@@ -1,0 +1,12 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.footer {
+    margin-top: 56px;
+    &__container {
+        padding: 16px;
+        background-color: color.scale($bgDark, $lightness: 15%);
+        display: flex;
+        justify-content: center;
+    }
+}

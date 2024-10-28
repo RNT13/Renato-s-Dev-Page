@@ -1,0 +1,25 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.header {
+    &__container {
+        padding: 16px;
+        background-color: color.scale($bgDark, $lightness: 15%);
+
+
+        &__branding {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &__icon {
+                max-width: 40px;
+                margin: 0 15px;
+            }
+
+            &__name {
+
+            }
+        }
+    }
+}

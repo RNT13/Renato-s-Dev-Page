@@ -1,0 +1,132 @@
+@use 'var' as *;
+@use 'about';
+@use 'education';
+@use 'footer';
+@use 'header';
+@use 'languages';
+@use 'projects';
+@use 'skills';
+@use 'social';
+@use 'sass:color';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: $bgDark;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 10px auto;
+
+    @media (max-width: 768px) {
+        max-width: 70%;
+
+        .profile-avatar {
+            max-width: 50%;
+        }
+    }
+    
+    @media (max-width: 1023px) {
+        max-width: 80%;
+    }
+}
+
+@mixin title($fontSize: 40px) {
+    @include text($fontSize);
+    color: $txt1Color;
+}
+
+@mixin text($fontSize: 16px) {
+    font-size: $fontSize;
+    line-height: $fontSize + 10px;
+    color: $txt2Color;
+}
+
+.text--big {
+    @include text(18px);
+    
+    @media (max-width: 768px) {
+        @include text(15px);
+    }
+}
+
+.text {
+    @include text;
+
+    @media (max-width: 768px) {
+        @include text(14px);
+    }
+}
+
+.text--small {
+    @include text(12px);
+
+    @media (max-width: 768px) {
+        @include text(11px);
+    }
+}
+
+.title--big {
+    @include title(44px);
+
+    @media (max-width: 768px) {
+        @include title(26px);
+    }
+}
+
+.title {
+    @include title;
+
+    @media (max-width: 768px) {
+        @include title(24px);
+    }
+}
+
+.title--small {
+    @include title(36px);
+
+    @media (max-width: 768px) {
+        @include title(22px);
+    }
+}
+
+.link--text {
+    @include text(18px);
+    color: $txt2Color;
+    text-decoration: underline;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    font-size: 16px;
+    color: $txt2Color;
+    background-color: $buttonColor;
+    text-transform: uppercase;
+    border-radius: 15px;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border: 1px solid $buttonColor;
+
+    transition: all ease .1;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+
+    &:hover {
+        background-color: color.scale($buttonColor, $lightness: 15%);
+        color: $bgDark;
+    }
+}

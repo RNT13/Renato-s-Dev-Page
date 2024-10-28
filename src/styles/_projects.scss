@@ -1,0 +1,22 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.projects {
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 24px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__item {
+            max-width: 50%;
+            margin-bottom: 12px;
+            width: 600px;
+        }
+    }
+}

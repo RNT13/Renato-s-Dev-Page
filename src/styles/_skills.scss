@@ -1,0 +1,31 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.skills {
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 24px 0;
+    }
+    
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
+        &__item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            margin-top: 24px;
+            transition: all ease .1;
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}

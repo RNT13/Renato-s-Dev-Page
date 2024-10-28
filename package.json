@@ -1,16 +1,20 @@
 {
-  "name": "less",
+  "name": "renatos-dev-page",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
-    "less": "less-watch-compiler ./src/styles ./build/styles main.less",
+    "dev": "gulp watch",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "less": "^4.2.0",
-    "less-watch-compiler": "^1.16.3"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.80.4"
   }
 }

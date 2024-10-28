@@ -1,0 +1,18 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.social__links {
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        &__item {
+            margin: 0 48px;
+            transition: all ease .1;
+
+            &:hover {
+                transform: scale(1.8);
+            }
+        }
+    }
+}

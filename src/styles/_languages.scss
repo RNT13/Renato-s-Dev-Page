@@ -1,0 +1,29 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.languages {
+    h2 {
+        display: flex;
+        justify-content: center;
+        margin: 24px 0;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+
+            img {
+                margin-right: 24px;
+            }
+        }
+    }
+}

@@ -1,81 +1,176 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renato Portfólio</title>
-    <link rel="stylesheet" href="build/styles/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <title>Renato's Dev Page</title>
+    <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
     <main>
-        <div class="container">
-            <header>
-                <img class="profile-avatar" src="src/images/RNT.jpg" alt="">
-                <div class="profile-bio">
-                    <h1 class="profile-bio-name">Portfólio do Renato</h1>
-                    <h2 class="profile-bio-subtitle">Engenheiro Front-end</h2>
-                    <p class="profile-bio-description">
-                        Sou um programador júnior, com muita vontade de aprender e exercer tudo que estou aprendendo no meu curso de desenvolverdor full stack python, estou muito feliz de ter me encontrado profissionalmente depois de muito tempo de busca.
-                    </p>
+        <header class="header">
+            <div class="header__container">
+                <div class="header__container__branding">
+                    <img class="header__container__branding__icon" src="src/images/code-tech-dev-icon-2048x1786-397qmt5y.png" alt="">
+                    <h1 class="header__container__branding__name">Renato's Dev Page</h1>
                 </div>
-            </header>
-            <nav>
-                <ul class="social-links">
-                    <li>
-                        <a href="https://www.instagram.com/renatominoita/">
-                            <img src="src/images/instagram.svg" alt="logo do instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/renato-luiz-0b072b247/">
-                            <img src="src/images/linkedin.svg" alt="logo do linkedin">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/RNT13">
-                            <img src="src/images/github.svg" alt="logo do github">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:renatornt18@gmail.com">
-                            <img src="src/images/mail.svg" alt="logo do e-mail">
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <nav>
-                <ul class="projects-list">
-                    <li class="projects-list-item">
-                        <a href="https://pagina-rnt.vercel.app/">
-                            Visite o projeto "Pagina-rnt"
-                        </a>
-                    </li>
-                    <li class="projects-list-item">
-                        <a href="https://baltazarte.vercel.app/">
-                            Visite o projeto "Baltazarte"
-                        </a>
-                    </li>
-                    <li class="projects-list-item">
-                        <a href="https://restaurante-exemplo.vercel.app/">
-                            Visite o projeto "Restaurante (Exemplo)"
-                        </a>
-                    </li>
-                    <li class="projects-list-item">
-                        <a href="https://sorteadorgruntrenato-phi.vercel.app/">
-                            Visite o projeto "Sorteador"
-                        </a>
-                    </li>
-                    <li class="projects-list-item">
-                        <a href="https://filmes-series-gh2h.vercel.app/">
-                            Visite o projeto "filmes-series+"
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+            </div>
+        </header>
+
+        <section class="about container">
+            <div class="about__content">
+                <div class="about__content__avatar">
+                    <img src="./src/images/RNT.jpg" alt="">
+                    <h2 class="title--big">Renato Minoita</h2>
+                    <h3 class="title">Engenheiro Front-end</h3>
+                </div>
+                <div class="about__content__intro">
+                    <h3 class="text--big">Sou um programador júnior, com muita vontade de aprender e exercer tudo que estou aprendendo no meu curso de desenvolverdor full stack python, estou muito feliz de ter me encontrado profissionalmente depois de muito tempo de busca.</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="social__links">
+            <ul class="social__links__list">
+                <li class="social__links__list__item">
+                    <a href="https://www.instagram.com/renatominoita/">
+                        <img src="src/images/instagram.svg" alt="logo do instagram">
+                    </a>
+                </li>
+                <li class="social__links__list__item">
+                    <a href="https://www.linkedin.com/in/renato-luiz-0b072b247/">
+                        <img src="src/images/linkedin.svg" alt="logo do linkedin">
+                    </a>
+                </li>
+                <li class="social__links__list__item">
+                    <a href="https://github.com/RNT13">
+                        <img src="src/images/github.svg" alt="logo do github">
+                    </a>
+                </li>
+                <li class="social__links__list__item">
+                    <a href="mailto:renatornt18@gmail.com">
+                        <img src="src/images/mail.svg" alt="logo do e-mail">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="skills container ">
+            <h2 class="title--big">Web Development tools:</h2>
+            <ul class="skills__list">
+                <li class="skills__list__item">
+                    <img src="./src/images/HTML5-icon.png" alt="HTML 5-icon">
+                    <h3 class="text--big">HTML 5</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/CSS3-icon.png" alt="CSS 3-icon">
+                    <h3 class="text--big">CSS 3</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/JS-icon.png" alt="JavaScript-icon">
+                    <h3 class="text--big">JavaScript</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/Node js.png" alt="Node.JS-icon">
+                    <h3 class="text--big">Node.JS</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/python.png" alt="Python-icon">
+                    <h3 class="text--big">Python</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/sass-icon.png" alt="SASS-icon">
+                    <h3 class="text--big">SASS</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/less-icon.png" alt="LESS-icon">
+                    <h3 class="text--big">LESS</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/Bootstrap-icon.png" alt="Bootstrap-icon">
+                    <h3 class="text--big">Bootstrap</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/Gulp-icon.png" alt="Gulp-icon">
+                    <h3 class="text--big">Gulp</h3>
+                </li>
+                <li class="skills__list__item">
+                    <img src="./src/images/grunt-icon.png" alt="Grunt-icon">
+                    <h3 class="text--big">Grunt</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section class="education">
+            <h2 class="title--big">Education:</h2>
+            <ul class="education__list">
+                <li class="education__list__item">
+                    <div class="education__list__item__detail">
+                        <img src="./src/images/school.png" alt="">
+                        <h3 class="text--big">Full Stack Python Development</h3>
+                    </div>
+                    <div class="education__list__item__detail">
+                        <img src="./src/images/location.png" alt="">
+                        <h3 class="text--big">EBAC - Brazil</h3>
+                    </div>
+                    <div class="education__list__item__detail">
+                        <img src="./src/images/calendar.png" alt="">
+                        <h3 class="text--big">07/2024 to 07/2025</h3>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="languages">
+            <h2 class="title--big">Languages:</h2>
+            <ul class="languages__list">
+                <li class="languages__list__item">
+                    <img src="/src/images/Brazil flag.png" alt="">
+                    <h3 class="text--big">Portuguese - Native </h6>
+                </li>
+                <li class="languages__list__item">
+                    <img src="/src/images/USA flag.png" alt="">
+                    <h3 class="text--big">English - advanced </h6>
+                </li>
+            </ul>
+        </section>
+
+        <section class="projects">
+            <h2 class="title--big">Projects:</h2>
+            <ul class="projects__list">
+                <li class="projects__list__item">
+                    <a class="button" href="https://pagina-rnt.vercel.app/">
+                        Visite o projeto "Pagina-rnt"
+                    </a>
+                </li>
+                <li class="projects__list__item">
+                    <a class="button" href="https://baltazarte.vercel.app/">
+                        Visite o projeto "Baltazarte"
+                    </a>
+                </li>
+                <li class="projects__list__item">
+                    <a class="button" href="https://restaurante-exemplo.vercel.app/">
+                        Visite o projeto "Restaurante (Exemplo)"
+                    </a>
+                </li>
+                <li class="projects__list__item">
+                    <a class="button" href="https://sorteadorgruntrenato-phi.vercel.app/">
+                        Visite o projeto "Sorteador"
+                    </a>
+                </li>
+                <li class="projects__list__item">
+                    <a class="button" href="https://filmes-series-gh2h.vercel.app/">
+                        Visite o projeto "filmes-series+"
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <span class="text--big">&copy; RNT projects - all rights reserved 2024</span>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
