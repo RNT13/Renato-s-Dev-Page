@@ -14,11 +14,15 @@
 
             &__icon {
                 max-width: 40px;
-                margin: 0 15px;
+                margin-right: 10px;
             }
 
             &__name {
                 font-size: 40px;
+
+                @media (max-width: 768px) {
+                    font-size: 25px;
+                }
             }
         }
     }

@@ -6,11 +6,19 @@
         display: flex;
         justify-content: center;
         margin: 24px 0;
+
+        @media (max-width: 768px) {
+            margin-top: 50px;
+        }
     }
     
     &__list {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
         
         &__item {
             display: flex;

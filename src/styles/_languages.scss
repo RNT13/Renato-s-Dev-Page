@@ -6,6 +6,10 @@
         display: flex;
         justify-content: center;
         margin: 24px 0;
+
+        @media (max-width: 768px) {
+            margin-top: 50px;
+        }
     }
 
     &__list {
@@ -20,6 +24,10 @@
             display: flex;
             align-items: center;
             margin-bottom: 24px;
+
+            @media (max-width: 768px) {
+                max-width: 300px;
+            }
 
             img {
                 margin-right: 24px;

@@ -23,6 +23,10 @@
 
             h2 {
                 margin-bottom: 24px;
+
+                @media (max-width: 768px) {
+                    font-size: 40px;
+                }
             }
         }
 
