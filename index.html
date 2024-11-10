@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renato's Dev Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <main>
@@ -17,20 +21,22 @@
             </div>
         </header>
 
-        <section class="about container">
-            <div class="about__content">
-                <div class="about__content__avatar">
-                    <img src="./src/images/RNT.jpg" alt="">
-                    <h2 class="title--big">Renato Minoita</h2>
-                    <h3 class="title">Front-end Engineer</h3>
-                </div>
-                <div class="about__content__intro">
-                    <h3 class="text--big">I am a junior programmer, eager to learn and practice everything I am learning in my full stack python developer course, I am very happy to have found myself professionally after a long time of searching.</h4>
+        <section class="hero ">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__content__avatar">
+                        <img src="./src/images/RNT.jpg" alt="">
+                        <h2 class="title--big">Renato Minoita</h2>
+                        <h3 class="title">Front-end Engineer</h3>
+                    </div>
+                    <div class="hero__content__intro">
+                        <h3 class="text--big">I am a junior programmer, eager to learn and practice everything I am learning in my full stack python developer course, I am very happy to have found myself professionally after a long time of searching.</h4>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="social__links">
+        <section class="social__links" data-aos="zoom-out">
             <ul class="social__links__list">
                 <li class="social__links__list__item">
                     <a href="https://www.instagram.com/renatominoita/">
@@ -58,50 +64,50 @@
         <section class="skills container ">
             <h2 class="title--big">Web Development tools:</h2>
             <ul class="skills__list">
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/HTML5-icon.png" alt="HTML 5-icon">
                     <h3 class="text--big">HTML 5</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/CSS3-icon.png" alt="CSS 3-icon">
                     <h3 class="text--big">CSS 3</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/JS-icon.png" alt="JavaScript-icon">
                     <h3 class="text--big">JavaScript</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/Node js.png" alt="Node.JS-icon">
                     <h3 class="text--big">Node.JS</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/python.png" alt="Python-icon">
                     <h3 class="text--big">Python</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/sass-icon.png" alt="SASS-icon">
                     <h3 class="text--big">SASS</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/less-icon.png" alt="LESS-icon">
                     <h3 class="text--big">LESS</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/Bootstrap-icon.png" alt="Bootstrap-icon">
                     <h3 class="text--big">Bootstrap</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/Gulp-icon.png" alt="Gulp-icon">
                     <h3 class="text--big">Gulp</h3>
                 </li>
-                <li class="skills__list__item">
+                <li class="skills__list__item" data-aos="flip-right">
                     <img src="./src/images/grunt-icon.png" alt="Grunt-icon">
                     <h3 class="text--big">Grunt</h3>
                 </li>
             </ul>
         </section>
 
-        <section class="education">
+        <section class="education" data-aos="fade-right">
             <h2 class="title--big">Education:</h2>
             <ul class="education__list">
                 <li class="education__list__item">
@@ -121,7 +127,7 @@
             </ul>
         </section>
 
-        <section class="languages">
+        <section class="languages" data-aos="fade-left">
             <h2 class="title--big">Languages:</h2>
             <ul class="languages__list">
                 <li class="languages__list__item">
@@ -135,35 +141,35 @@
             </ul>
         </section>
 
-        <section class="projects">
+        <section class="projects" >
             <h2 class="title--big">Projects:</h2>
             <ul class="projects__list">
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://pagina-rnt.vercel.app/">
                         Visit the project "Pagina-rnt"
                     </a>
                 </li>
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://baltazarte.vercel.app/">
                         Visit the project "Baltazarte"
                     </a>
                 </li>
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://restaurante-exemplo.vercel.app/">
                         Visit the project "Restaurante"
                     </a>
                 </li>
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://sorteadorgruntrenato-phi.vercel.app/">
                         Visit the project "Sorteador"
                     </a>
                 </li>
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://filmes-series-gh2h.vercel.app/">
                         Visit the project "filmes-series+"
                     </a>
                 </li>
-                <li class="projects__list__item">
+                <li class="projects__list__item" data-aos="zoom-out">
                     <a class="button" href="https://godzilla-lista-de-filmes.vercel.app/">
                         Visit the project "godzilla-lista-de-filmes"
                     </a>
@@ -176,6 +182,9 @@
                 <span class="text--big">&copy; RNT projects - all rights reserved 2024</span>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="./src/scripts/main.js"></script>
     </main>
 </body>
 </html>

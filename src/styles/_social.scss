@@ -5,12 +5,16 @@
     &__list {
         display: flex;
         justify-content: center;
-        margin-top: 24px;
-        margin-bottom: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
 
         &__item {
             margin: 0 48px;
             transition: all ease .1;
+
+            img {
+                width: 50px;
+            }
 
             &:hover {
                 transform: scale(1.8);

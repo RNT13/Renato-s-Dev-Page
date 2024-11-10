@@ -1,5 +1,4 @@
 @use 'var' as *;
-@use 'about';
 @use 'education';
 @use 'footer';
 @use 'header';
@@ -7,6 +6,7 @@
 @use 'projects';
 @use 'skills';
 @use 'social';
+@use 'hero';
 @use 'sass:color';
 
 * {
@@ -14,11 +14,13 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: Robot, sans-serif;
 }
 
 body {
     background-color: $bgDark;
 }
+
 
 .container {
     max-width: 640px;
@@ -121,9 +123,9 @@ body {
 
     transition: all ease .1;
 
-            &:hover {
-                transform: scale(1.1);
-            }
+    &:hover {
+        transform: scale(1.1);
+    }
 
     &:hover {
         background-color: color.scale($buttonColor, $lightness: 15%);
