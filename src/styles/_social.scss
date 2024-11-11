@@ -5,8 +5,8 @@
     &__list {
         display: flex;
         justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
 
         &__item {
             margin: 0 48px;
@@ -21,7 +21,7 @@
             }
 
             @media (max-width: 768px) {
-                margin: 0 30px;
+                margin: 0 25px;
 
                 img {
                     width: 35px;

@@ -1,0 +1,44 @@
+@use 'var' as *;
+@use 'sass:color';
+
+.about {
+    position: relative;
+    top: -10vh;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &__avatar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &__img {
+                border-radius: 50%;
+                margin-bottom: 24px;
+                width: 200px;
+                height: 200px;
+            }
+
+            &__name {
+                margin-bottom: 24px;
+
+                @media (max-width: 768px) {
+                    font-size: 35px;
+                }
+            }
+        }
+
+        &__intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;        
+            margin-top: 12px;
+        }
+    }
+}

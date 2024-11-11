@@ -6,6 +6,7 @@
 @use 'projects';
 @use 'skills';
 @use 'social';
+@use 'about';
 @use 'hero';
 @use 'sass:color';
 
@@ -17,7 +18,8 @@
     font-family: Robot, sans-serif;
 }
 
-body {
+html, body {
+    overflow-x: hidden;
     background-color: $bgDark;
 }
 
@@ -25,7 +27,7 @@ body {
 .container {
     max-width: 640px;
     width: 100%;
-    margin: 10px auto;
+    margin: 0px auto;
 
     @media (max-width: 768px) {
         max-width: 70%;
