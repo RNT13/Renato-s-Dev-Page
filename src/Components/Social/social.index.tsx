@@ -47,7 +47,7 @@ const Social: React.FC = () => {
           <li>
             <a href="https://www.instagram.com/renatominoita/">
               <SosialLinkImg
-                src="src/images/instagram.svg"
+                src="/images/instagram.svg"
                 alt="logo do instagram"
               />
             </a>
@@ -55,19 +55,19 @@ const Social: React.FC = () => {
           <li>
             <a href="https://www.linkedin.com/in/renato-luiz-0b072b247/">
               <SosialLinkImg
-                src="src/images/linkedin.svg"
+                src="/images/linkedin.svg"
                 alt="logo do linkedin"
               />
             </a>
           </li>
           <li>
             <a href="https://github.com/RNT13">
-              <SosialLinkImg src="src/images/github.svg" alt="logo do github" />
+              <SosialLinkImg src="/images/github.svg" alt="logo do github" />
             </a>
           </li>
           <li>
             <a href="mailto:renatornt18@gmail.com">
-              <SosialLinkImg src="src/images/mail.svg" alt="logo do e-mail" />
+              <SosialLinkImg src="/images/mail.svg" alt="logo do e-mail" />
             </a>
           </li>
         </SocialLinkList>

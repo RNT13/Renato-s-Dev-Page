@@ -52,15 +52,15 @@ const Education: React.FC = () => {
         <EducationList>
           <EducationItem>
             <EducationDetail>
-              <EducationImg src="./src/images/school.png" alt="" />
+              <EducationImg src="/images/school.png" alt="" />
               <TitleH3Styled>Full Stack Python Development</TitleH3Styled>
             </EducationDetail>
             <EducationDetail>
-              <EducationImg src="./src/images/location.png" alt="" />
+              <EducationImg src="/images/location.png" alt="" />
               <TitleH3Styled>EBAC - Brazil</TitleH3Styled>
             </EducationDetail>
             <EducationDetail>
-              <EducationImg src="./src/images/calendar.png" alt="" />
+              <EducationImg src="/images/calendar.png" alt="" />
               <TitleH3Styled>07/2024 to 07/2025</TitleH3Styled>
             </EducationDetail>
           </EducationItem>

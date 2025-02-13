@@ -4,7 +4,7 @@ const HeroContainer = styled.div`
   width: 100%;
   max-width: 100%;
   height: 320px;
-  background-image: url('src/images/fundo.png');
+  background-image: url('/images/fundo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -48,10 +48,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg
-              src="./src/images/HTML5-icon.png"
-              alt="HTML 5-icon"
-            />
+            <SkillsListImg src="/images/HTML5-icon.png" alt="HTML 5-icon" />
             <TitleH3>HTML 5</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -64,7 +61,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/CSS3-icon.png" alt="CSS 3-icon" />
+            <SkillsListImg src="/images/CSS3-icon.png" alt="CSS 3-icon" />
             <TitleH3>CSS 3</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -77,10 +74,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg
-              src="./src/images/JS-icon.png"
-              alt="JavaScript-icon"
-            />
+            <SkillsListImg src="/images/JS-icon.png" alt="JavaScript-icon" />
             <TitleH3>JavaScript</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -93,7 +87,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/Node js.png" alt="Node.JS-icon" />
+            <SkillsListImg src="/images/Node js.png" alt="Node.JS-icon" />
             <TitleH3>Node.JS</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -106,7 +100,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/python.png" alt="Python-icon" />
+            <SkillsListImg src="/images/python.png" alt="Python-icon" />
             <TitleH3>Python</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -119,7 +113,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/sass-icon.png" alt="SASS-icon" />
+            <SkillsListImg src="/images/sass-icon.png" alt="SASS-icon" />
             <TitleH3>SASS</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -132,7 +126,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/less-icon.png" alt="LESS-icon" />
+            <SkillsListImg src="/images/less-icon.png" alt="LESS-icon" />
             <TitleH3>LESS</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -146,7 +140,7 @@ const Skills: React.FC = () => {
         >
           <SkillListItem>
             <SkillsListImg
-              src="./src/images/Bootstrap-icon.png"
+              src="/images/Bootstrap-icon.png"
               alt="Bootstrap-icon"
             />
             <TitleH3>Bootstrap</TitleH3>
@@ -161,7 +155,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/Gulp-icon.png" alt="Gulp-icon" />
+            <SkillsListImg src="/images/Gulp-icon.png" alt="Gulp-icon" />
             <TitleH3>Gulp</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -174,7 +168,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/grunt-icon.png" alt="Grunt-icon" />
+            <SkillsListImg src="/images/grunt-icon.png" alt="Grunt-icon" />
             <TitleH3>Grunt</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -187,7 +181,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg src="./src/images/vuejs-icon.png" alt="Vue-icon" />
+            <SkillsListImg src="/images/vuejs-icon.png" alt="Vue-icon" />
             <TitleH3>Vue JS</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -200,10 +194,7 @@ const Skills: React.FC = () => {
           style={{ transform: 'rotateY(-180deg)' }}
         >
           <SkillListItem>
-            <SkillsListImg
-              src="./src/images/React-icon.webp"
-              alt="React-icon"
-            />
+            <SkillsListImg src="/images/React-icon.webp" alt="React-icon" />
             <TitleH3>React</TitleH3>
           </SkillListItem>
         </motion.div>
@@ -217,7 +208,7 @@ const Skills: React.FC = () => {
         >
           <SkillListItem>
             <SkillsListImg
-              src="./src/images/typescript-icon.png"
+              src="/images/typescript-icon.png"
               alt="Typescript-icon"
             />
             <TitleH3>Typescript</TitleH3>

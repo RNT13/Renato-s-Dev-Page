@@ -43,14 +43,11 @@ const Languages: React.FC = () => {
         <TitleH2>Languages:</TitleH2>
         <LanguagesList>
           <LanguagesListItem>
-            <LanguagesListImg
-              src="./src/images/Brazil flag.png"
-              alt="Brazil flag"
-            />
+            <LanguagesListImg src="/images/Brazil flag.png" alt="Brazil flag" />
             <TitleH3>Portuguese - Native </TitleH3>
           </LanguagesListItem>
           <LanguagesListItem>
-            <LanguagesListImg src="./src/images/USA flag.png" alt="USA flag" />
+            <LanguagesListImg src="/images/USA flag.png" alt="USA flag" />
             <TitleH3>English - Advanced </TitleH3>
           </LanguagesListItem>
         </LanguagesList>

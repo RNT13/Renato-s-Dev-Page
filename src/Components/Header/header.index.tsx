@@ -48,7 +48,7 @@ const Title = styled.h1`
 const Header: React.FC = () => {
   return (
     <HeaderContainer>
-      <Logo src="src/images/code-tech.png" alt="Logo" />
+      <Logo src="/images/code-tech.png" alt="Logo" />
       <Title>Renato&apos;s Dev Page</Title>
     </HeaderContainer>
   )
