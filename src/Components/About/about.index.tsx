@@ -1,9 +1,9 @@
-import { RootState } from '@reduxjs/toolkit/query'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import styled from 'styled-components'
 import { GlobalContainer, TitleH2, TitleH3 } from '../../Styles/globalStyle'
 import { media } from '../../Styles/media'
+import { AppDispatch, RootState } from '../../redux/store'
 import { fetchGitHubUser } from '../../redux/userGithubSlice'
 
 const AvatarImg = styled.img`
@@ -38,11 +38,12 @@ const AvatarName = styled.h2`
   }
 `
 const About: React.FC = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch<AppDispatch>()
   const githubUser = useSelector((state: RootState) => state.userGithub.user)
   const githubStatus = useSelector(
     (state: RootState) => state.userGithub.status
   )
+  const githubError = useSelector((state: RootState) => state.userGithub.error)
 
   useEffect(() => {
     dispatch(fetchGitHubUser('RNT13'))
@@ -53,12 +54,11 @@ const About: React.FC = () => {
   }
 
   if (githubStatus === 'failed') {
-    return <div>Failed to load user data.</div>
+    return <div>Failed to load user data: {githubError}</div>
   }
 
   return (
     <GlobalContainer>
-      {githubStatus === 'loading' && <p>Loading...</p>}
       {githubUser && (
         <>
           <AvatarImg src={githubUser.avatar_url} alt={githubUser.login} />

@@ -16,22 +16,35 @@ interface UserState {
   user: GitHubUser | null
   status: 'idle' | 'loading' | 'failed'
   isAuthenticated: boolean
+  error: string | null
 }
 
 // Definir o estado inicial
 const initialState: UserState = {
   user: null,
   status: 'idle',
-  isAuthenticated: false
+  isAuthenticated: false,
+  error: null
 }
 
 // Thunk assíncrono para buscar informações do usuário no GitHub
 export const fetchGitHubUser = createAsyncThunk(
   'userGithub/fetchGitHubUser',
-  async (username: string) => {
-    const response = await fetch(`https://api.github.com/users/${username}`)
-    const data = await response.json()
-    return data
+  async (username: string, { rejectWithValue }) => {
+    try {
+      const response = await fetch(`https://api.github.com/users/${username}`)
+      if (!response.ok) {
+        throw new Error('Failed to fetch user data')
+      }
+      const data = await response.json()
+      return data
+    } catch (error) {
+      if (error instanceof Error) {
+        return rejectWithValue(error.message)
+      } else {
+        return rejectWithValue('An unknown error occurred')
+      }
+    }
   }
 )
 
@@ -52,23 +65,20 @@ const userGithubSlice = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchGitHubUser.pending, (state) => {
-        console.log('GitHub user loading...')
         state.status = 'loading'
+        state.error = null
       })
       .addCase(fetchGitHubUser.fulfilled, (state, action) => {
-        console.log('GitHub user fetched successfully:', action.payload)
         state.status = 'idle'
         state.user = action.payload
       })
-      .addCase(fetchGitHubUser.rejected, (state) => {
-        console.log('GitHub user fetch failed')
+      .addCase(fetchGitHubUser.rejected, (state, action) => {
         state.status = 'failed'
+        state.error = action.payload as string
       })
   }
 })
 
-// Exportando as ações
 export const { setUser, logout } = userGithubSlice.actions
 
-// Exportando o reducer
 export default userGithubSlice.reducer
