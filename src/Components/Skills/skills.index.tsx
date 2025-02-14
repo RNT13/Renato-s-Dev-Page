@@ -34,10 +34,14 @@ const SkillsListImg = styled.img`
   }
 `
 
+const SkillsH2 = styled(TitleH2)`
+  margin: 100px 0px 36px 0px;
+`
+
 const Skills: React.FC = () => {
   return (
     <GlobalContainer>
-      <TitleH2>Web Development tools:</TitleH2>
+      <SkillsH2>Web Development tools:</SkillsH2>
       <SkillsList>
         <motion.div
           whileInView={{

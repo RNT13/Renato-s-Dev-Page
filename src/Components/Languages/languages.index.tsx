@@ -30,6 +30,9 @@ const LanguagesListImg = styled.img`
     margin: 0px 6px 6px 0px;
   }
 `
+const LanguagesH2 = styled(TitleH2)`
+  margin: 100px 0px 36px 0px;
+`
 
 const Languages: React.FC = () => {
   return (
@@ -40,7 +43,7 @@ const Languages: React.FC = () => {
         exit={{ x: -200, opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <TitleH2>Languages:</TitleH2>
+        <LanguagesH2>Languages:</LanguagesH2>
         <LanguagesList>
           <LanguagesListItem>
             <LanguagesListImg src="/images/Brazil flag.png" alt="Brazil flag" />

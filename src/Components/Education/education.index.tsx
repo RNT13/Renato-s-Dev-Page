@@ -38,6 +38,9 @@ const TitleH3Styled = styled(TitleH3)`
   flex: 1;
   text-align: left;
 `
+const EducationH2 = styled(TitleH2)`
+  margin: 100px 0px 36px 0px;
+`
 
 const Education: React.FC = () => {
   return (
@@ -48,7 +51,7 @@ const Education: React.FC = () => {
         exit={{ x: 200, opacity: 0 }}
         transition={{ duration: 1 }}
       >
-        <TitleH2>Education:</TitleH2>
+        <EducationH2>Education:</EducationH2>
         <EducationList>
           <EducationItem>
             <EducationDetail>

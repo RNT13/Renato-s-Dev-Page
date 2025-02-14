@@ -57,11 +57,14 @@ const ProjectButton = styled.a`
     max-width: 100%;
   }
 `
+const ProjectsH2 = styled(TitleH2)`
+  margin: 100px 0px 36px 0px;
+`
 
 const Projects: React.FC = () => {
   return (
     <GlobalContainer>
-      <TitleH2>Projects:</TitleH2>
+      <ProjectsH2>Projects:</ProjectsH2>
       <ProjectList>
         <ProjectListItem>
           <motion.div
