@@ -73,8 +73,8 @@ const Projects: React.FC = () => {
             transition={{ duration: 0.5 }}
             style={{ width: '100%' }}
           >
-            <ProjectButton href="https://pagina-rnt.vercel.app/">
-              Visit the project &quot;Pagina-rnt&quot;
+            <ProjectButton href="https://rnt-page.vercel.app/">
+              Visit the project &quot;rnt_page&quot;
             </ProjectButton>
           </motion.div>
         </ProjectListItem>
