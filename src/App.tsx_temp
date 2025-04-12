@@ -1,0 +1,34 @@
+import { Provider } from "react-redux"
+import About from "./components_temp/About/About"
+import Education from "./components_temp/Education/Education"
+import Footer from "./components_temp/Footer/Footer"
+import Header from "./components_temp/Header/Header"
+import Hero from "./components_temp/Hero/Hero"
+import Languages from "./components_temp/Languages/Languages"
+import Projects from "./components_temp/Projects/Projects"
+import Skills from "./components_temp/Skills/Skills"
+import Social from "./components_temp/Social/Social"
+import store from "./redux_temp/store"
+import { GlobalContainer, GlobalStyle } from "./styles_temp/globalStyle"
+
+
+const App: React.FC = () => {
+  return (
+    <Provider store={store}>
+      <GlobalStyle />
+      <Header />
+      <Hero />
+      <GlobalContainer>
+        <About />
+        <Social />
+        <Skills />
+        <Education />
+        <Languages />
+        <Projects />
+      </GlobalContainer>
+      <Footer />
+    </Provider>
+  )
+}
+
+export default App

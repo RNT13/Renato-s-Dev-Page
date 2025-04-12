@@ -1,7 +1,7 @@
 import { lighten } from 'polished'
 import { styled } from 'styled-components'
-import { Colors } from '../../styles/globalStyle'
-import { media } from '../../styles/media'
+import { Colors } from '../../styles_temp/globalStyle'
+import { media } from '../../styles_temp/media'
 
 export const HeaderContainer = styled.header`
   padding: 20px;

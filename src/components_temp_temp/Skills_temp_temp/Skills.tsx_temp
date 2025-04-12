@@ -1,4 +1,4 @@
-import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/globalStyle'
+import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles_temp/globalStyle'
 import {
   SkillListItem,
   SkillsH2,

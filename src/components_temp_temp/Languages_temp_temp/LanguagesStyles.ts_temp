@@ -1,6 +1,6 @@
 import { styled } from 'styled-components'
-import { TitleH2 } from '../../styles/globalStyle'
-import { media } from '../../styles/media'
+import { TitleH2 } from '../../styles_temp/globalStyle'
+import { media } from '../../styles_temp/media'
 
 export const LanguagesList = styled.ul`
   display: flex;

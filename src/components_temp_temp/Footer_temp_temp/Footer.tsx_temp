@@ -1,4 +1,4 @@
-import { TitleH3 } from '../../styles/globalStyle'
+import { TitleH3 } from '../../styles_temp/globalStyle'
 import { FooterContainer } from './FooterStyles'
 
 const Footer = () => {

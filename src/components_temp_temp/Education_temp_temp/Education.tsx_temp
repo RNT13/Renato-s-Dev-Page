@@ -1,4 +1,4 @@
-import { AnimatedDiv, GlobalContainer } from '../../styles/globalStyle'
+import { AnimatedDiv, GlobalContainer } from '../../styles_temp/globalStyle'
 import {
   EducationDetail,
   EducationH2,
