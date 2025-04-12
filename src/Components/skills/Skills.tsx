@@ -1,9 +1,9 @@
-import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/GlobalStyle'
+import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/globalStyle'
 import {
-    SkillListItem,
-    SkillsH2,
-    SkillsList,
-    SkillsListImg
+  SkillListItem,
+  SkillsH2,
+  SkillsList,
+  SkillsListImg
 } from './SkillsStyles'
 
 const Skills: React.FC = () => {

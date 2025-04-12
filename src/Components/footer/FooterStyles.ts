@@ -1,6 +1,6 @@
 import { lighten } from 'polished'
 import { styled } from 'styled-components'
-import { Colors } from '../../styles/GlobalStyle'
+import { Colors } from '../../styles/globalStyle'
 
 export const FooterContainer = styled.div`
   padding: 12px;

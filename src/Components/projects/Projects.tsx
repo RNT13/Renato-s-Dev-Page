@@ -1,9 +1,9 @@
-import { AnimatedDiv, GlobalContainer } from '../../styles/GlobalStyle'
+import { AnimatedDiv, GlobalContainer } from '../../styles/globalStyle'
 import {
-    ProjectButton,
-    ProjectList,
-    ProjectListItem,
-    ProjectsH2
+  ProjectButton,
+  ProjectList,
+  ProjectListItem,
+  ProjectsH2
 } from './ProjectStyles'
 
 const Projects: React.FC = () => {

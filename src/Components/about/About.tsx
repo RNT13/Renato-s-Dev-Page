@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchGitHubUser } from '../../redux/slices/userGithubSlice'
 import { AppDispatch, RootState } from '../../redux/store'
-import { GlobalContainer, TitleH2, TitleH3 } from '../../styles/GlobalStyle'
+import { GlobalContainer, TitleH2, TitleH3 } from '../../styles/globalStyle'
 import { AvatarImg, AvatarName } from './AboutStyles'
 
 const About: React.FC = () => {

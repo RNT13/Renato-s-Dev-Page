@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { TitleH2 } from '../../styles/GlobalStyle'
+import { TitleH2 } from '../../styles/globalStyle'
 import { media } from '../../styles/media'
 
 export const SkillsList = styled.ul`
