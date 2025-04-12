@@ -8,7 +8,7 @@ export const Colors = {
   textColor: '#fff'
 }
 
-export const EstiloGlobal: React.FC = createGlobalStyle`
+export const GlobalStyle: React.FC = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
@@ -73,5 +73,3 @@ export const AnimatedDiv = styled(motion.div)`
   overflow-x: hidden;
   max-width: 100%;
 `
-
-export default EstiloGlobal

@@ -10,12 +10,12 @@ import Projects from './Components/projects/Projects'
 import Skills from './Components/skills/Skills'
 import Social from './Components/social/Social'
 import Store from './redux/store'
-import EstiloGlobal, { GlobalContainer } from './styles/globalStyle'
+import { GlobalContainer, GlobalStyle } from './styles/globalStyle'
 
 const App: React.FC = () => {
   return (
     <Provider store={Store}>
-      <EstiloGlobal />
+      <GlobalStyle />
       <Header />
       <Hero />
       <GlobalContainer>
