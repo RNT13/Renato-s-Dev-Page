@@ -1,42 +1,10 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import styled from 'styled-components'
-import { GlobalContainer, TitleH2, TitleH3 } from '../../Styles/globalStyle'
-import { media } from '../../Styles/media'
-import { AppDispatch, RootState } from '../../redux/store'
-import { fetchGitHubUser } from '../../redux/userGithubSlice'
+import { AppDispatch, RootState } from '../../redux/Store'
+import { fetchGitHubUser } from '../../redux/UserGithubSlice'
+import { GlobalContainer, TitleH2, TitleH3 } from '../../styles/GlobalStyle'
+import { AvatarImg, AvatarName } from './AboutStyles'
 
-const AvatarImg = styled.img`
-  position: relative;
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
-  top: -120px;
-  z-index: 1;
-
-  ${media.md} {
-    width: 220px;
-    height: 220px;
-  }
-
-  ${media.sm} {
-    width: 200px;
-    height: 200px;
-  }
-`
-const AvatarName = styled.h2`
-  margin-top: -70px;
-  margin-bottom: 16px;
-  font-size: 3.5em;
-
-  ${media.md} {
-    font-size: 3em;
-  }
-
-  ${media.sm} {
-    font-size: 2.5em;
-  }
-`
 const About: React.FC = () => {
   const dispatch = useDispatch<AppDispatch>()
   const githubUser = useSelector((state: RootState) => state.userGithub.user)

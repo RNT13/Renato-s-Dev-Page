@@ -1,5 +1,6 @@
+import { motion } from 'framer-motion'
 import styled, { createGlobalStyle } from 'styled-components'
-import { media } from './media'
+import { media } from './Media'
 
 export const Colors = {
   bgColor: '#02040c',
@@ -16,7 +17,7 @@ export const EstiloGlobal: React.FC = createGlobalStyle`
     font-family: Roboto, sans-serif;
   }
 
-  body {
+  html, body {
     background-color: ${Colors.bgColor};
     overflow-x:hidden;
   }
@@ -67,6 +68,10 @@ export const TitleH3 = styled.h3`
     font-size: 1em;
     margin: 0 0 6px 0;
   }
+`
+export const AnimatedDiv = styled(motion.div)`
+  overflow-x: hidden;
+  max-width: 100%;
 `
 
 export default EstiloGlobal

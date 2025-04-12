@@ -1,43 +1,16 @@
-import { motion } from 'framer-motion'
 import React from 'react'
-import styled from 'styled-components'
-import { GlobalContainer, TitleH2, TitleH3 } from '../../Styles/globalStyle'
-import { media } from '../../Styles/media'
-
-const LanguagesList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`
-
-const LanguagesListItem = styled.li`
-  max-width: 350px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
-`
-
-const LanguagesListImg = styled.img`
-  margin: 0px 24px 24px 0px;
-
-  ${media.md} {
-    margin: 0px 12px 12px 0px;
-  }
-
-  ${media.md} {
-    margin: 0px 6px 6px 0px;
-  }
-`
-const LanguagesH2 = styled(TitleH2)`
-  margin: 100px 0px 36px 0px;
-`
+import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/GlobalStyle'
+import {
+  LanguagesH2,
+  LanguagesList,
+  LanguagesListImg,
+  LanguagesListItem
+} from './LanguagesStyles'
 
 const Languages: React.FC = () => {
   return (
     <GlobalContainer>
-      <motion.div
+      <AnimatedDiv
         whileInView={{ x: 0, opacity: 1 }}
         initial={{ x: 200, opacity: 0 }}
         exit={{ x: -200, opacity: 0 }}
@@ -54,7 +27,7 @@ const Languages: React.FC = () => {
             <TitleH3>English - Advanced </TitleH3>
           </LanguagesListItem>
         </LanguagesList>
-      </motion.div>
+      </AnimatedDiv>
     </GlobalContainer>
   )
 }

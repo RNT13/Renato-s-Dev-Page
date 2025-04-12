@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import userGithubReducer from './userGithubSlice'
+import userGithubReducer from './UserGithubSlice'
 
 const store = configureStore({
   reducer: {

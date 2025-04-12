@@ -1,9 +1,9 @@
 import { lighten } from 'polished'
-import styled from 'styled-components'
-import { Colors } from '../../Styles/globalStyle'
-import { media } from '../../Styles/media'
+import { styled } from 'styled-components'
+import { Colors } from '../../styles/GlobalStyle'
+import { media } from '../../styles/Media'
 
-const HeaderContainer = styled.header`
+export const HeaderContainer = styled.header`
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ const HeaderContainer = styled.header`
   }
 `
 
-const Logo = styled.img`
+export const Logo = styled.img`
   height: 60px;
   width: auto;
   margin-right: 8px;
@@ -31,7 +31,7 @@ const Logo = styled.img`
   }
 `
 
-const Title = styled.h1`
+export const Title = styled.h1`
   font-size: 3em;
   font-weight: bold;
   text-transform: uppercase;
@@ -44,14 +44,3 @@ const Title = styled.h1`
     font-size: 1.8em;
   }
 `
-
-const Header: React.FC = () => {
-  return (
-    <HeaderContainer>
-      <Logo src="/images/code-tech.png" alt="Logo" />
-      <Title>Renato&apos;s Dev Page</Title>
-    </HeaderContainer>
-  )
-}
-
-export default Header

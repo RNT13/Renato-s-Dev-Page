@@ -1,4 +1,4 @@
-import { theme } from './theme'
+import { theme } from './Theme'
 
 export const media = {
   sm: `@media (max-width: ${theme.breakpoints.sm})`,
