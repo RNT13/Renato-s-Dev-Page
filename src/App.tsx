@@ -10,7 +10,7 @@ import Projects from './Components/projects/Projects'
 import Skills from './Components/skills/Skills'
 import Social from './Components/social/Social'
 import Store from './redux/store'
-import EstiloGlobal, { GlobalContainer } from './styles/globalStyle.ts'
+import EstiloGlobal, { GlobalContainer } from './styles/globalStyle'
 
 const App: React.FC = () => {
   return (
