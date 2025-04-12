@@ -1,11 +1,12 @@
 import pluginJs from '@eslint/js'
+import tseslint from '@typescript-eslint/eslint-plugin'
+import pluginImport from 'eslint-plugin-import'
 import prettierPlugin from 'eslint-plugin-prettier'
 import pluginReact from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import globals from 'globals'
-import tseslint from 'typescript-eslint'
 
-/** @type {import('eslint').Linter.Config[]} */
+
 export default [
   { files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'] },
   { languageOptions: { globals: globals.browser } },
@@ -17,7 +18,8 @@ export default [
   {
     plugins: {
       'react-hooks': reactHooks,
-      prettier: prettierPlugin
+      prettier: prettierPlugin,
+      import: pluginImport
     },
     rules: {
       'react-hooks/rules-of-hooks': 'error',
@@ -30,9 +32,12 @@ export default [
         {
           singleQuote: true,
           trailingComma: 'none',
-          semi: false
+          semi: false,
+          printWidth: 300,
+          arrowParens: 'avoid'
         }
-      ]
+      ],
+      'import/no-unresolved': ['error', { caseSensitive: true }]
     }
   },
 
