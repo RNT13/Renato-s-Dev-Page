@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { AppDispatch, RootState } from '../../redux/Store'
-import { fetchGitHubUser } from '../../redux/UserGithubSlice'
+import { fetchGitHubUser } from '../../redux/slices/UserGithubSlice'
 import { GlobalContainer, TitleH2, TitleH3 } from '../../styles/GlobalStyle'
 import { AvatarImg, AvatarName } from './AboutStyles'
 
