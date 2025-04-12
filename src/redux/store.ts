@@ -1,13 +1,13 @@
 import { configureStore } from '@reduxjs/toolkit'
 import userGithubReducer from './slices/UserGithubSlice'
 
-const store = configureStore({
+const Store = configureStore({
   reducer: {
     userGithub: userGithubReducer
   }
 })
 
-export type RootState = ReturnType<typeof store.getState>
-export type AppDispatch = typeof store.dispatch
+export type RootState = ReturnType<typeof Store.getState>
+export type AppDispatch = typeof Store.dispatch
 
-export default store
+export default Store
