@@ -1,4 +1,6 @@
-import { AnimatedDiv, GlobalContainer } from "../../styles/globalStyle"
+
+import { motion } from "framer-motion"
+import { GlobalContainer } from "../../styles/globalStyle"
 import { ProjectButton, ProjectList, ProjectListItem, ProjectsH2 } from "./ProjectStyles"
 
 
@@ -8,7 +10,7 @@ const Projects: React.FC = () => {
       <ProjectsH2>Projects:</ProjectsH2>
       <ProjectList>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -17,10 +19,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://rnt-page.vercel.app/">
               Visit the project &quot;rnt_page&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -29,10 +31,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://baltazarte.vercel.app/">
               Visit the project &quot;Baltazarte&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -41,10 +43,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://restaurante-exemplo.vercel.app/">
               Visit the project &quot;Restaurante&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -53,10 +55,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://sorteadorgruntrenato-phi.vercel.app/">
               Visit the project &quot;Sorteador&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -65,10 +67,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://filmes-series-gh2h.vercel.app/">
               Visit the project &quot;Filmes-series+&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -77,10 +79,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://aniversario-iota-kohl.vercel.app/">
               Visit the project &quot;Aniversário&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -89,10 +91,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://calculadora-vue-azure.vercel.app/">
               Visit the project &quot;calculadora vue&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -101,10 +103,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://todo-vue-three-gilt.vercel.app/">
               Visit the project &quot;todo list vue&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -113,10 +115,10 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://github-perfil-rnt13.vercel.app/">
               Visit the project &quot;Perfil Github&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
         <ProjectListItem>
-          <AnimatedDiv
+          <motion.div
             whileInView={{ opacity: 1, scale: 1.0 }}
             initial={{ opacity: 0, scale: 0.5 }}
             transition={{ duration: 0.5 }}
@@ -125,7 +127,7 @@ const Projects: React.FC = () => {
             <ProjectButton href="https://calculadora-imc-opal-ten.vercel.app/">
               Visit the project &quot;calculadora IMC&quot;
             </ProjectButton>
-          </AnimatedDiv>
+          </motion.div>
         </ProjectListItem>
       </ProjectList>
     </GlobalContainer>
