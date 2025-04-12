@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { media } from '../../styles/Media'
+import { media } from '../../styles/media'
 
 export const AvatarImg = styled.img`
   position: relative;

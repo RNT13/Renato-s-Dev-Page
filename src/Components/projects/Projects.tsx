@@ -1,4 +1,4 @@
-import { AnimatedDiv, GlobalContainer } from '../../styles/GlobalStyle'
+import { AnimatedDiv, GlobalContainer } from '../../styles/globalStyle'
 import {
   ProjectButton,
   ProjectList,

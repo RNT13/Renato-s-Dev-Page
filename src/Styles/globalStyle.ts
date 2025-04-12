@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import styled, { createGlobalStyle } from 'styled-components'
-import { media } from './Media'
+import { media } from './media'
 
 export const Colors = {
   bgColor: '#02040c',

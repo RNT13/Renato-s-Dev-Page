@@ -1,6 +1,6 @@
 import { styled } from 'styled-components'
-import { TitleH2 } from '../../styles/GlobalStyle'
-import { media } from '../../styles/Media'
+import { TitleH2 } from '../../styles/globalStyle'
+import { media } from '../../styles/media'
 
 export const SkillsList = styled.ul`
   display: grid;

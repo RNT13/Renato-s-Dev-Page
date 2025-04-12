@@ -1,7 +1,7 @@
 import { lighten } from 'polished'
 import { styled } from 'styled-components'
-import { Colors, TitleH2 } from '../../styles/GlobalStyle'
-import { media } from '../../styles/Media'
+import { Colors, TitleH2 } from '../../styles/globalStyle'
+import { media } from '../../styles/media'
 
 export const ProjectList = styled.ul`
   max-width: 100%;
