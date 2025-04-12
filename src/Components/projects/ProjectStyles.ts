@@ -1,6 +1,6 @@
 import { lighten } from 'polished'
 import { styled } from 'styled-components'
-import { Colors, TitleH2 } from '../../styles/globalStyle'
+import { Colors, TitleH2 } from '../../styles/GlobalStyle'
 import { media } from '../../styles/media'
 
 export const ProjectList = styled.ul`

@@ -1,6 +1,6 @@
 import { lighten } from 'polished'
 import { styled } from 'styled-components'
-import { Colors } from '../../styles/globalStyle'
+import { Colors } from '../../styles/GlobalStyle'
 import { media } from '../../styles/media'
 
 export const HeaderContainer = styled.header`

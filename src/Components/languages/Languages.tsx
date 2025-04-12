@@ -1,10 +1,10 @@
 import React from 'react'
-import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/globalStyle'
+import { AnimatedDiv, GlobalContainer, TitleH3 } from '../../styles/GlobalStyle'
 import {
-  LanguagesH2,
-  LanguagesList,
-  LanguagesListImg,
-  LanguagesListItem
+    LanguagesH2,
+    LanguagesList,
+    LanguagesListImg,
+    LanguagesListItem
 } from './LanguagesStyles'
 
 const Languages: React.FC = () => {

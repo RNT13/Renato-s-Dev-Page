@@ -1,4 +1,4 @@
-import { AnimatedDiv } from '../../styles/globalStyle'
+import { AnimatedDiv } from '../../styles/GlobalStyle'
 import { SocialContainer, SocialLinkList, SosialLinkImg } from './SocialStyles'
 
 const Social: React.FC = () => {

@@ -1,11 +1,11 @@
-import { AnimatedDiv, GlobalContainer } from '../../styles/globalStyle'
+import { AnimatedDiv, GlobalContainer } from '../../styles/GlobalStyle'
 import {
-  EducationDetail,
-  EducationH2,
-  EducationImg,
-  EducationItem,
-  EducationList,
-  TitleH3Styled
+    EducationDetail,
+    EducationH2,
+    EducationImg,
+    EducationItem,
+    EducationList,
+    TitleH3Styled
 } from './EducationStyles'
 
 const Education: React.FC = () => {
