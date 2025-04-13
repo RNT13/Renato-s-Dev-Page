@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# 👨‍💻 Renato's Dev Page
+A modern and responsive personal landing page, built with:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ⚛️ React + TypeScript
 
-Currently, two official plugins are available:
+- ⚡ Vite for fast bundling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Styling with CSS Modules
 
-## Expanding the ESLint configuration
+- 🧹 ESLint + Prettier for clean code
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🚀 Hosting via Vercel
 
-- Configure the top-level `parserOptions` property like this:
+<br>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🌐 Access the live page: [Renato-s dev-page](https://renato-s-dev-page.vercel.app/)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+<br>
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📦 Technologies used
+React: Library for building user interfaces.​
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+TypeScript: Superset of JavaScript that adds static typing.​
+
+Vite: Next-generation bundler for rapid development.​
+
+CSS Modules: Modular and reusable styling.​
+
+ESLint & Prettier: Tools for linting and code formatting.​
+
+Vercel: Hosting platform for front-end projects.
+
+<br>
+
+## ✅ Features
+- Responsive design adapted to different devices.​
+
+- Links to social networks and projects.​
+
+- Smooth animations for a better user experience.​
+
+- Clean and organized code, facilitating future maintenance.
+
+<br>
+
+## 📚 References
+
+- [⚛️ React](https://react.dev/)
+- [📘 TypeScript](https://www.typescriptlang.org/)
+- [⚡ Vite](https://vitejs.dev/)
+- [▲ Vercel](https://vercel.com/)
+
+<br>
+
+## 👤 Author
+
+Developed with 💙 by [Renato Minoita](https://www.linkedin.com/in/renato-luiz-0b072b247/)
+
+<br>
+
