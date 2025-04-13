@@ -17,18 +17,18 @@ A modern and responsive personal landing page, built with:
 
 <br>
 
-## 📦 Technologies used
-React: Library for building user interfaces.​
+## 📦 Tech Stack
+**React** - Library for building user interfaces.​
 
-TypeScript: Superset of JavaScript that adds static typing.​
+**TypeScript** - Superset of JavaScript that adds static typing.​
 
-Vite: Next-generation bundler for rapid development.​
+**Vite** - Next-generation bundler for rapid development.​
 
-CSS Modules: Modular and reusable styling.​
+**CSS Modules** - Modular and reusable styling.​
 
-ESLint & Prettier: Tools for linting and code formatting.​
+**ESLint & Prettier** - Tools for linting and code formatting.​
 
-Vercel: Hosting platform for front-end projects.
+**Vercel** - Hosting platform for front-end projects.
 
 <br>
 
@@ -54,7 +54,9 @@ Vercel: Hosting platform for front-end projects.
 
 ## 👤 Author
 
-Developed with 💙 by [Renato Minoita](https://www.linkedin.com/in/renato-luiz-0b072b247/)
+Made with 💙 by [Renato Minoita](https://www.linkedin.com/in/renato-luiz-0b072b247/)
+Check out more on [GitHub](https://github.com/RNT13)
+
 
 <br>
 
