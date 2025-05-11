@@ -28,6 +28,18 @@ const Projects: React.FC = () => {
             transition={{ duration: 0.5 }}
             style={{ width: '100%' }}
           >
+            <ProjectButton href="https://rnt-efood.vercel.app/">
+              Visit the project &quot;efood&quot;
+            </ProjectButton>
+          </motion.div>
+        </ProjectListItem>
+        <ProjectListItem>
+          <motion.div
+            whileInView={{ opacity: 1, scale: 1.0 }}
+            initial={{ opacity: 0, scale: 0.5 }}
+            transition={{ duration: 0.5 }}
+            style={{ width: '100%' }}
+          >
             <ProjectButton href="https://baltazarte.vercel.app/">
               Visit the project &quot;Baltazarte&quot;
             </ProjectButton>
