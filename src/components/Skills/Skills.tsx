@@ -119,6 +119,7 @@ const Skills: React.FC = () => {
             <TitleH3>Vue JS</TitleH3>
           </SkillListItem>
         </AnimatedDiv>
+
         <AnimatedDiv
           initial={{ rotateY: -180 }}
           whileInView={{ rotateY: 0, transition: { duration: 0.5 } }}
@@ -126,6 +127,16 @@ const Skills: React.FC = () => {
           <SkillListItem>
             <SkillsListImg src="/images/React-icon.webp" alt="React-icon" />
             <TitleH3>React</TitleH3>
+          </SkillListItem>
+        </AnimatedDiv>
+
+        <AnimatedDiv
+          initial={{ rotateY: -180 }}
+          whileInView={{ rotateY: 0, transition: { duration: 0.5 } }}
+        >
+          <SkillListItem>
+            <SkillsListImg src="/images/nextjs-icon.webp" alt="Next.js-icon" />
+            <TitleH3>Next.js</TitleH3>
           </SkillListItem>
         </AnimatedDiv>
 
