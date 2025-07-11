@@ -21,7 +21,7 @@ const Social: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/renato-luiz-0b072b247/">
+            <a href="https://www.linkedin.com/in/renato-minoita/">
               <SosialLinkImg
                 src="/images/linkedin.svg"
                 alt="logo do linkedin"
