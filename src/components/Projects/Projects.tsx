@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
             style={{ width: '100%' }}
           >
             <ProjectButton href="https://rnt-page.vercel.app/">
-              Visit the project &quot;rnt_page&quot;
+              Visit the project &quot;rnt-page&quot;
             </ProjectButton>
           </motion.div>
         </ProjectListItem>
@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
             style={{ width: '100%' }}
           >
             <ProjectButton href="https://rnt-vagas.vercel.app/">
-              Visit the project &quot;RNT Vagas&quot;
+              Visit the project &quot;RNT-Vagas&quot;
             </ProjectButton>
           </motion.div>
         </ProjectListItem>
