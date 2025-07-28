@@ -19,7 +19,7 @@ const Languages: React.FC = () => {
           </LanguagesListItem>
           <LanguagesListItem>
             <LanguagesListImg src="/images/USA flag.png" alt="USA flag" />
-            <TitleH3>English - Advanced </TitleH3>
+            <TitleH3>English - intermediary </TitleH3>
           </LanguagesListItem>
         </LanguagesList>
       </AnimatedDiv>
