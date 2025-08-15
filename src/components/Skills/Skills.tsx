@@ -243,6 +243,27 @@ const Skills: React.FC = () => {
             <TitleH3>Vite</TitleH3>
           </SkillListItem>
         </AnimatedDiv>
+
+        <AnimatedDiv
+          initial={{ rotateY: -180 }}
+          whileInView={{ rotateY: 0, transition: { duration: 0.5 } }}
+        >
+          <SkillListItem>
+            <SkillsListImg src="/images/RTK Query.png" alt="RTK Query icon" />
+            <TitleH3>RTK Query</TitleH3>
+          </SkillListItem>
+        </AnimatedDiv>
+
+        <AnimatedDiv
+          initial={{ rotateY: -180 }}
+          whileInView={{ rotateY: 0, transition: { duration: 0.5 } }}
+        >
+          <SkillListItem>
+            <SkillsListImg src="/images/prisma.png" alt="prisma icon" />
+            <TitleH3>Prisma</TitleH3>
+          </SkillListItem>
+        </AnimatedDiv>
+
       </SkillsList>
     </GlobalContainer>
   )
