@@ -48,7 +48,7 @@ export default function Home() {
         <SkillItems src="/images/HTML5-icon.png" alt="HTML5-icon" title="HTML5" />
         <SkillItems src="/images/CSS3-icon.png" alt="CSS3-icon" title="CSS3" />
         <SkillItems src="/images/JS-icon.png" alt="JS-icon" title="JS" />
-        <SkillItems src="/images/nodeJs.png" alt="nodejs-icon" title="Node JS" />
+        <SkillItems src="/images/nodejs.png" alt="nodejs-icon" title="Node JS" />
         <SkillItems src="/images/python.png" alt="python-icon" title="Python" />
         <SkillItems src="/images/sass-icon.png" alt="sass-icon" title="Sass" />
         <SkillItems src="/images/less-icon.png" alt="less-icon" title="Less" />
@@ -64,10 +64,10 @@ export default function Home() {
         <SkillItems src="/images/i18next-icon.webp" alt="i18n-icon" title="I18n" />
         <SkillItems src="/images/jquery-icon.png" alt="jquery-icon" title="Jquery" />
         <SkillItems src="/images/npm-icon.png" alt="npm-icon" title="NPM" />
-        <SkillItems src="/images/styledComponent-icon.png" alt="styledComponents-icon" title="StyledComponents" />
+        <SkillItems src="/images/styled-components-icon.png" alt="styledComponents-icon" title="StyledComponents" />
         <SkillItems src="/images/tailwindcss-icon.png" alt="tailwindcss-icon" title="Tailwindcss" />
         <SkillItems src="/images/vite-icon.png" alt="vite-icon" title="Vite" />
-        <SkillItems src="/images/RTK Query.png" alt="RTKQuery-icon" title="RTKQuery" />
+        <SkillItems src="/images/rtk-query.png" alt="RTKQuery-icon" title="RTKQuery" />
         <SkillItems src="/images/prisma.png" alt="prisma-icon" title="Prisma" />
         <SkillItems src="/images/figma-icon.webp" alt="figma-icon" title="Figma" />
         <SkillItems src="/images/restApi-icon.png" alt="rest-api-icon" title="REST API" />
