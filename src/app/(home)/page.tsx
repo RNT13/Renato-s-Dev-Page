@@ -48,12 +48,12 @@ export default function Home() {
         <SkillItems src="/images/HTML5-icon.png" alt="HTML5-icon" title="HTML5" />
         <SkillItems src="/images/CSS3-icon.png" alt="CSS3-icon" title="CSS3" />
         <SkillItems src="/images/JS-icon.png" alt="JS-icon" title="JS" />
-        <SkillItems src="/images/nodejs.png" alt="nodejs-icon" title="Node JS" />
+        <SkillItems src="/images/nodejs.webp" alt="nodejs-icon" title="Node JS" />
         <SkillItems src="/images/python.png" alt="python-icon" title="Python" />
         <SkillItems src="/images/sass-icon.png" alt="sass-icon" title="Sass" />
         <SkillItems src="/images/less-icon.png" alt="less-icon" title="Less" />
-        <SkillItems src="/images/bootstrap-icon.png" alt="bootstrap-icon" title="Bootstrap" />
-        <SkillItems src="/images/gulp-icon.png" alt="gulp-icon" title="Gulp" />
+        <SkillItems src="/images/bootstrap-icon.webp" alt="bootstrap-icon" title="Bootstrap" />
+        <SkillItems src="/images/gulp-icon.webp" alt="gulp-icon" title="Gulp" />
         <SkillItems src="/images/grunt-icon.png" alt="grunt-icon" title="Grunt" />
         <SkillItems src="/images/vuejs-icon.png" alt="vuejs-icon" title="Vue" />
         <SkillItems src="/images/react-icon.webp" alt="react-icon" title="React" />
