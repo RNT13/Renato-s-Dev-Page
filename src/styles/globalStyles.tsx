@@ -103,7 +103,7 @@ export const TitleH3 = styled.h3`
 `
 
 export const MinorTextH4 = styled.h3`
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 300;
   margin-bottom: 8px;
   color: ${({ theme }) => theme.colors.baseBlack.light50};
