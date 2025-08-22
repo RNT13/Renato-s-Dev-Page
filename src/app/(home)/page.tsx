@@ -56,7 +56,7 @@ export default function Home() {
         <SkillItems src="/images/gulp-icon.webp" alt="gulp-icon" title="Gulp" />
         <SkillItems src="/images/grunt-icon.png" alt="grunt-icon" title="Grunt" />
         <SkillItems src="/images/vuejs-icon.png" alt="vuejs-icon" title="Vue" />
-        <SkillItems src="/images/react-icon.webp" alt="react-icon" title="React" />
+        <SkillItems src="/images/react-icon.png" alt="react-icon" title="React" />
         <SkillItems src="/images/nextjs-icon.png" alt="next-icon" title="Next" />
         <SkillItems src="/images/typescript-icon.png" alt="typescript-icon" title="Typescript" />
         <SkillItems src="/images/framerMotion-icon.svg" alt="framerMotion-icon" title="FramerMotion" />
