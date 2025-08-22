@@ -48,7 +48,7 @@ export default function Home() {
         <SkillItems src="/images/HTML5-icon.png" alt="HTML5-icon" title="HTML5" />
         <SkillItems src="/images/CSS3-icon.png" alt="CSS3-icon" title="CSS3" />
         <SkillItems src="/images/JS-icon.png" alt="JS-icon" title="JS" />
-        <SkillItems src="/images/Node js.png" alt="Nodejs-icon" title="Node JS" />
+        <SkillItems src="/images/nodeJs.png" alt="nodejs-icon" title="Node JS" />
         <SkillItems src="/images/python.png" alt="python-icon" title="Python" />
         <SkillItems src="/images/sass-icon.png" alt="sass-icon" title="Sass" />
         <SkillItems src="/images/less-icon.png" alt="less-icon" title="Less" />
