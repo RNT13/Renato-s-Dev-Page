@@ -5,6 +5,7 @@ import ProjectCard from '@/components/ui/ProjectCard/ProjectCard'
 import Section from '@/components/ui/Section/Section'
 import SkillItems from '@/components/ui/SkillItems/SkillItems'
 import { projectsMock } from '@/data/projectsMock'
+import { skills } from '@/data/skillsMock'
 import { TitleH3 } from '@/styles/globalStyles'
 import { MainContainer } from './homeStyles'
 
@@ -45,34 +46,9 @@ export default function Home() {
       </Section>
 
       <Section $grid $variant="skills" id="skills" title="Development tools:">
-        <SkillItems src="/images/HTML5-icon.png" alt="HTML5-icon" title="HTML5" />
-        <SkillItems src="/images/CSS3-icon.png" alt="CSS3-icon" title="CSS3" />
-        <SkillItems src="/images/JS-icon.png" alt="JS-icon" title="JS" />
-        <SkillItems src="/images/nodejs.webp" alt="nodejs-icon" title="Node JS" />
-        <SkillItems src="/images/python.png" alt="python-icon" title="Python" />
-        <SkillItems src="/images/sass-icon.png" alt="sass-icon" title="Sass" />
-        <SkillItems src="/images/less-icon.png" alt="less-icon" title="Less" />
-        <SkillItems src="/images/bootstrap-icon.webp" alt="bootstrap-icon" title="Bootstrap" />
-        <SkillItems src="/images/gulp-icon.webp" alt="gulp-icon" title="Gulp" />
-        <SkillItems src="/images/grunt-icon.png" alt="grunt-icon" title="Grunt" />
-        <SkillItems src="/images/vuejs-icon.png" alt="vuejs-icon" title="Vue" />
-        <SkillItems src="/images/react-icon.png" alt="react-icon" title="React" />
-        <SkillItems src="/images/nextjs-icon.png" alt="next-icon" title="Next" />
-        <SkillItems src="/images/typescript-icon.png" alt="typescript-icon" title="Typescript" />
-        <SkillItems src="/images/framerMotion-icon.svg" alt="framerMotion-icon" title="FramerMotion" />
-        <SkillItems src="/images/git-icon.png" alt="git-icon" title="Git" />
-        <SkillItems src="/images/i18next-icon.webp" alt="i18n-icon" title="I18n" />
-        <SkillItems src="/images/jquery-icon.png" alt="jquery-icon" title="Jquery" />
-        <SkillItems src="/images/npm-icon.png" alt="npm-icon" title="NPM" />
-        <SkillItems src="/images/styled-components-icon.png" alt="styledComponents-icon" title="StyledComponents" />
-        <SkillItems src="/images/tailwindcss-icon.png" alt="tailwindcss-icon" title="Tailwindcss" />
-        <SkillItems src="/images/vite-icon.png" alt="vite-icon" title="Vite" />
-        <SkillItems src="/images/rtk-query.png" alt="RTKQuery-icon" title="RTKQuery" />
-        <SkillItems src="/images/prisma.png" alt="prisma-icon" title="Prisma" />
-        <SkillItems src="/images/figma-icon.webp" alt="figma-icon" title="Figma" />
-        <SkillItems src="/images/restApi-icon.png" alt="rest-api-icon" title="REST API" />
-        <SkillItems src="/images/jest-icon.svg" alt="jest-icon" title="Jest" />
-        <SkillItems src="/images/cypress-icon.png" alt="cypress-icon" title="Cypress" />
+        {skills.map(skill => (
+          <SkillItems key={skill.title} src={skill.src} alt={skill.alt} title={skill.title} />
+        ))}
       </Section>
 
       <Section $grid $variant="projects" id="projects" title="Projects">
