@@ -19,6 +19,15 @@ export const projectsMock = [
   },
   {
     id: 3,
+    title: 'RNT Hub',
+    description:
+      'RNT Hub is a social media platform designed for dynamic posts and real-time interactions, developed with a modern front-end stack and a responsive, user-centered layout.',
+    thumbnail: '',
+    galery: ['', ''],
+    link: 'https://rnt-hub.vercel.app/'
+  },
+  {
+    id: 4,
     title: 'RNT Efood',
     description:
       'Efood World Cuisine Delivery A modern and responsive global cuisine delivery platform, developed with React + TypeScript, Vite for performance, Styled Components for custom UI, and Redux for state management. The site consumes data from its own API, ensuring dynamism and scalability.',
@@ -27,7 +36,7 @@ export const projectsMock = [
     link: 'https://rnt-efood.vercel.app/'
   },
   {
-    id: 4,
+    id: 5,
     title: 'RNT Vagas',
     description:
       'RNT Vagas A modern and responsive platform for job posting and search, built with Next.js + TypeScript, styled with Styled Components, secure authentication with NextAuth, database management with Prisma, and clean code guaranteed by ESLint + Prettier. Hosted by Vercel, it offers responsive design, an administrative panel, and scalable features.',
@@ -36,7 +45,7 @@ export const projectsMock = [
     link: 'https://rnt-vagas.vercel.app/'
   },
   {
-    id: 5,
+    id: 6,
     title: 'RNT Page',
     description:
       'RNT Page A modern, responsive personal landing page built with React + TypeScript, styled with Styled-Components, optimized with Vite, and featuring Redux Toolkit for state management, i18next for bilingual support (EN/PT-BR), smooth Framer Motion animations, and hosted on Vercel. Includes a theme switcher, responsive design, and clean, reusable components.',
@@ -45,7 +54,7 @@ export const projectsMock = [
     link: 'https://rnt-page.vercel.app/'
   },
   {
-    id: 6,
+    id: 7,
     title: 'RNT Restaurante',
     description: 'RNT Restaurant Its a simple landing page created with Vite, React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-restaurante1.png',
@@ -53,7 +62,7 @@ export const projectsMock = [
     link: 'https://restaurante-exemplo.vercel.app/'
   },
   {
-    id: 7,
+    id: 8,
     title: 'RNT Filmes',
     description: 'RNT Filmes Its a simple landing page created with Vite, React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-filmes1.png',
@@ -61,7 +70,7 @@ export const projectsMock = [
     link: 'https://filmes-series-gh2h.vercel.app/'
   },
   {
-    id: 8,
+    id: 9,
     title: 'RNT VueList',
     description: 'RNT VueList is a simple to-do list made with Vue + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-veuList1.png',
@@ -69,7 +78,7 @@ export const projectsMock = [
     link: 'https://todo-vue-three-gilt.vercel.app/'
   },
   {
-    id: 9,
+    id: 10,
     title: 'RNT Aniversario',
     description:
       'RNT Aniversario is a birthday countdown app developed with React + TypeScript, Styled Components for custom UI, and React AOS for animation effects. The app features responsive design and Scroll Reveal for animation effects.',
@@ -78,7 +87,7 @@ export const projectsMock = [
     link: 'https://aniversario-iota-kohl.vercel.app/'
   },
   {
-    id: 10,
+    id: 11,
     title: 'RNT Github',
     description: 'RNT Github is an application for searching Github user profiles, made with Vite + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-gitPerfil1.png',
@@ -86,7 +95,7 @@ export const projectsMock = [
     link: 'https://github-perfil-rnt13.vercel.app/'
   },
   {
-    id: 11,
+    id: 12,
     title: 'RNT IMC',
     description: 'RNT IMC - is a BMI calculation application developed with React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-imc1.png',
