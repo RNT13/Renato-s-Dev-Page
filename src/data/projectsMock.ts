@@ -22,27 +22,27 @@ export const projectsMock = [
     title: 'RNT Hub',
     description:
       'RNT Hub is a social media platform designed for dynamic posts and real-time interactions, developed with a modern front-end stack and a responsive, user-centered layout.',
-    thumbnail: '',
-    galery: ['', ''],
+    thumbnail: '/images/rnt-hub01.png',
+    galery: ['/images/rnt-hub01.png', '/images/rnt-hub02.png', '/images/rnt-hub03.png', '/images/rnt-hub04.png'],
     link: 'https://rnt-hub.vercel.app/'
   },
   {
     id: 4,
-    title: 'RNT Efood',
-    description:
-      'Efood World Cuisine Delivery A modern and responsive global cuisine delivery platform, developed with React + TypeScript, Vite for performance, Styled Components for custom UI, and Redux for state management. The site consumes data from its own API, ensuring dynamism and scalability.',
-    thumbnail: '/images/rnt-efood1.png',
-    galery: ['/images/rnt-efood1.png', '/images/rnt-efood2.png', '/images/rnt-efood3.png', '/images/rnt-efood4.png', '/images/rnt-efood5.png'],
-    link: 'https://rnt-efood.vercel.app/'
-  },
-  {
-    id: 5,
     title: 'RNT Vagas',
     description:
       'RNT Vagas A modern and responsive platform for job posting and search, built with Next.js + TypeScript, styled with Styled Components, secure authentication with NextAuth, database management with Prisma, and clean code guaranteed by ESLint + Prettier. Hosted by Vercel, it offers responsive design, an administrative panel, and scalable features.',
     thumbnail: '/images/rnt-vagas1.png',
     galery: ['/images/rnt-vagas1.png', '/images/rnt-vagas2.png', '/images/rnt-vagas3.png', '/images/rnt-vagas4.png', '/images/rnt-vagas5.png'],
     link: 'https://rnt-vagas.vercel.app/'
+  },
+  {
+    id: 5,
+    title: 'RNT Efood',
+    description:
+      'Efood World Cuisine Delivery A modern and responsive global cuisine delivery platform, developed with React + TypeScript, Vite for performance, Styled Components for custom UI, and Redux for state management. The site consumes data from its own API, ensuring dynamism and scalability.',
+    thumbnail: '/images/rnt-efood1.png',
+    galery: ['/images/rnt-efood1.png', '/images/rnt-efood2.png', '/images/rnt-efood3.png', '/images/rnt-efood4.png', '/images/rnt-efood5.png'],
+    link: 'https://rnt-efood.vercel.app/'
   },
   {
     id: 6,
