@@ -44,7 +44,7 @@ export const projectsMock = [
     id: 5,
     title: 'Universo Educativo',
     description:
-      'Universo Educativo is a modern landing page designed for selling digital products, built with Next.js and TypeScript for a fast and scalable frontend experience. It features Styled Components for a sleek, fluid, and user-friendly design. The project includes a fully functional backend powered by Python and Django REST Framework, with Stripe integrated for seamless payment processing and Resend for complete messaging capabilities. This setup provides a modern, end-to-end infrastructure capable of efficiently serving and engaging users.',
+      'Universo Educativo is a modern landing page designed for selling digital products, built with Next.js and TypeScript for a fast and scalable frontend experience. It features Styled Components for a sleek, fluid, and user-friendly design. The project includes a fully functional backend powered by Python and Django REST Framework, with Stripe integrated for seamless payment processing and Resend for complete messaging capabilities.',
     thumbnail: '/images/universo-01.png',
     galery: ['/images/universo-01.png', 'universo-02.png'],
     link: 'https://universo-educativo.vercel.app/'
