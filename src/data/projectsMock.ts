@@ -42,6 +42,15 @@ export const projectsMock = [
   },
   {
     id: 5,
+    title: 'Universo Educativo',
+    description:
+      'Universo Educativo is a modern landing page designed for selling digital products, built with Next.js and TypeScript for a fast and scalable frontend experience. It features Styled Components for a sleek, fluid, and user-friendly design. The project includes a fully functional backend powered by Python and Django REST Framework, with Stripe integrated for seamless payment processing and Resend for complete messaging capabilities. This setup provides a modern, end-to-end infrastructure capable of efficiently serving and engaging users.',
+    thumbnail: '/images/universo-01.png',
+    galery: ['/images/universo-01.png', 'universo-02.png'],
+    link: 'https://universo-educativo.vercel.app/'
+  },
+  {
+    id: 6,
     title: 'RNT Vagas',
     description:
       'RNT Vagas A modern and responsive platform for job posting and search, built with Next.js + TypeScript, styled with Styled Components, secure authentication with NextAuth, database management with Prisma, and clean code guaranteed by ESLint + Prettier. Hosted by Vercel, it offers responsive design, an administrative panel, and scalable features.',
@@ -50,7 +59,7 @@ export const projectsMock = [
     link: 'https://rnt-vagas.vercel.app/'
   },
   {
-    id: 6,
+    id: 7,
     title: 'RNT Efood',
     description:
       'Efood World Cuisine Delivery A modern and responsive global cuisine delivery platform, developed with React + TypeScript, Vite for performance, Styled Components for custom UI, and Redux for state management. The site consumes data from its own API, ensuring dynamism and scalability.',
@@ -59,7 +68,7 @@ export const projectsMock = [
     link: 'https://rnt-efood.vercel.app/'
   },
   {
-    id: 7,
+    id: 8,
     title: 'RNT Page',
     description:
       'RNT Page A modern, responsive personal landing page built with React + TypeScript, styled with Styled-Components, optimized with Vite, and featuring Redux Toolkit for state management, i18next for bilingual support (EN/PT-BR), smooth Framer Motion animations, and hosted on Vercel. Includes a theme switcher, responsive design, and clean, reusable components.',
@@ -68,7 +77,7 @@ export const projectsMock = [
     link: 'https://rnt-page.vercel.app/'
   },
   {
-    id: 8,
+    id: 9,
     title: 'RNT Restaurante',
     description: 'RNT Restaurant Its a simple landing page created with Vite, React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-restaurante1.png',
@@ -76,7 +85,7 @@ export const projectsMock = [
     link: 'https://restaurante-exemplo.vercel.app/'
   },
   {
-    id: 9,
+    id: 10,
     title: 'RNT Filmes',
     description: 'RNT Filmes Its a simple landing page created with Vite, React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-filmes1.png',
@@ -84,7 +93,7 @@ export const projectsMock = [
     link: 'https://filmes-series-gh2h.vercel.app/'
   },
   {
-    id: 10,
+    id: 11,
     title: 'RNT VueList',
     description: 'RNT VueList is a simple to-do list made with Vue + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-veuList1.png',
@@ -92,7 +101,7 @@ export const projectsMock = [
     link: 'https://todo-vue-three-gilt.vercel.app/'
   },
   {
-    id: 11,
+    id: 12,
     title: 'RNT Aniversario',
     description:
       'RNT Aniversario is a birthday countdown app developed with React + TypeScript, Styled Components for custom UI, and React AOS for animation effects. The app features responsive design and Scroll Reveal for animation effects.',
@@ -101,7 +110,7 @@ export const projectsMock = [
     link: 'https://aniversario-iota-kohl.vercel.app/'
   },
   {
-    id: 12,
+    id: 13,
     title: 'RNT Github',
     description: 'RNT Github is an application for searching Github user profiles, made with Vite + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-gitPerfil1.png',
@@ -109,7 +118,7 @@ export const projectsMock = [
     link: 'https://github-perfil-rnt13.vercel.app/'
   },
   {
-    id: 13,
+    id: 14,
     title: 'RNT IMC',
     description: 'RNT IMC - is a BMI calculation application developed with React + TypeScript, Styled Components for custom UI.',
     thumbnail: '/images/rnt-imc1.png',
